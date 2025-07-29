@@ -44,9 +44,16 @@ body {
     line-height: 1.6;
   }
 
+  video {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 100%;
+    height: auto;
+  }
+
   .media-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
     gap: 10px;
     max-width: 1000px;
     margin: auto;
